@@ -9,3 +9,7 @@ body{
   font-weight: bold;
   color: blue;
 }
+
+.card:has(.card-button) {
+  background-color: lightblue;
+}
